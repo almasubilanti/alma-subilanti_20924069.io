@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Toko Kecantikan Alma</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Selamat Datang di Toko Kecantikan Alma</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#">Produk</a>
+      <a href="#">Kontak</a>
+    </nav>
+    <a href="#" class="cart-icon">
+      <img src="https://cdn-icons-png.flaticon.com/512/263/263142.png" alt="Keranjang">
+      <span id="cart-count" class="cart-count"></span>
+    </a>
+  </header>
+
+  <main>
+    <section class="produk-list">
+      <article class="produk-item">
+        <img src="https://quickimagetools.com/uploads/image_6870b0f05959f8.43404292.png" alt="handbody" />
+        <h2>Handbody Scarlet</h2>
+        <p>Rp 89.900</p>
+        <p>Untuk perawatan dan mencerahkan kulit seketika.</p>
+        <button onclick="tambahKeKeranjang('Handbody Scarlet')">🛒 Tambah ke Keranjang</button>
+      </article>
+
+      <article class="produk-item">
+        <img src="https://quickimagetools.com/uploads/image_6870b19d518428.52360505.jpg" alt="eyeliner" />
+        <h2>Eyeliner ESQA</h2>
+        <p>Rp 200.000</p>
+        <p>Membuat matamu terlihat menawan dan anti silau.</p>
+        <button onclick="tambahKeKeranjang('Eyeliner ESQA')">🛒 Tambah ke Keranjang</button>
+      </article>
+
+      <article class="produk-item">
+        <img src="https://quickimagetools.com/uploads/image_6870b1c0b46d04.58683086.png" alt="lipstick" />
+        <h2>Lipstick Shinesation</h2>
+        <p>Rp 334.900</p>
+        <p>Memerahkan bibir dan tahan lama, tidak mudah menempel.</p>
+        <button onclick="tambahKeKeranjang('Lipstick Shinesation')">🛒 Tambah ke Keranjang</button>
+      </article>
+
+      <article class="produk-item">
+        <img src="https://quickimagetools.com/uploads/image_6870b1dfc6bd15.94820021.jpg" alt="eyeshadow" />
+        <h2>Eyeshadow Saniye Bundle</h2>
+        <p>Rp 200.000</p>
+        <p>Tahan air bahkan saat berwudhu.</p>
+        <button onclick="tambahKeKeranjang('Eyeshadow Saniye')">🛒 Tambah ke Keranjang</button>
+      </article>
+
+      <article class="produk-item">
+        <img src="https://quickimagetools.com/uploads/image_6870b1f97a16e6.88749610.jpg" alt="bedak" />
+        <h2>Bedak OMG!</h2>
+        <p>Rp 55.000</p>
+        <p>Ringan, tidak menempel, dan tidak luntur!</p>
+        <button onclick="tambahKeKeranjang('Bedak OMG!')">🛒 Tambah ke Keranjang</button>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>Kontak: almahebat@tokocantik.com | 0812-3456-7890</p>
+  </footer>
+
+  <script src="java.js"></script>
+</body>
+</html>
